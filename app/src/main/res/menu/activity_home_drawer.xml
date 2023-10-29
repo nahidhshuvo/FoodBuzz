@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+    <item >
+        <menu>
+
+            <item
+                android:id="@+id/nav_review"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Post a Review" />
+
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Setting" />
+
+
+
+            <item
+                android:id="@+id/nav_terms"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Terms and Conditions" />
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_send"
+                android:title="About FoodBuzz" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Help" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Log out" />
+        </menu>
+    </item>
+
+</menu>
